@@ -1,5 +1,5 @@
-import './App.css';
-import {Routes, Route} from 'react-router-dom';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Homepage from './pages/Homepage';
 import Connexion from './pages/Connexion';
 import Inscription from './pages/Inscription';

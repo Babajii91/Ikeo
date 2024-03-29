@@ -1,9 +1,12 @@
 // Import des modules nécessaires
 const express = require('express');
 const mongoose = require('mongoose');
+const cors = require('cors');
 
 // Création de l'application Express
 const app = express();
+
+app.use(cors());
 
 // Connexion à la base de données MongoDB
 mongoose.connect('mongodb://localhost:27017/Ikeo', {

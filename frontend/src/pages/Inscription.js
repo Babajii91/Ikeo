@@ -1,3 +1,5 @@
+// Inscription.js
+
 import React, { useState } from 'react';
 import axios from 'axios';
 
@@ -20,7 +22,7 @@ function Inscription() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            await axios.post('http://localhost:3000/user', formData);
+            await axios.post('http://localhost:3000/users', formData); // Modifier l'URL pour correspondre à la route appropriée
             alert('Inscription réussie !');
         } catch (error) {
             console.error('Erreur lors de l\'inscription:', error);

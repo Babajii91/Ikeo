@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Layout from "../components/Layout/Layout";
 import axios from 'axios'; // Import de la bibliothèque Axios
+import "./Homepage.css"; // Importez votre fichier CSS
 
 const Homepage = () => {
     const [tables, setTables] = useState([]); // État pour stocker les données récupérées
@@ -18,12 +19,11 @@ const Homepage = () => {
 
     return(
         <Layout>
-            <h1>Homepage</h1>
-            <div>
+            <div className="homepage-container">
                 {/* Afficher les données récupérées */}
                 {/* Par exemple, si les données sont un tableau d'objets, vous pouvez les mapper pour les afficher */}
                 {tables.map(table => (
-                    <div key={table._id}>
+                    <div key={table._id} className="box">
                         <h2>{table.Nom}</h2>
                         <img src={table.Image} alt={table.Nom} />
                         <p>Prix: {table.Prix}</p>

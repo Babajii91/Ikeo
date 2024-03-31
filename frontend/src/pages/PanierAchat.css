@@ -1,0 +1,53 @@
+.panier-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.produits {
+    margin-top: 20px;
+}
+
+.produit {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.produit img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.info-produit h2 {
+    margin-bottom: 5px;
+}
+
+.info-produit p {
+    margin-bottom: 10px;
+}
+
+.total {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.total p {
+    font-weight: bold;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

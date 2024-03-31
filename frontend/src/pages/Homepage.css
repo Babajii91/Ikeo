@@ -4,7 +4,7 @@
     justify-content: center;
 }
 
-.box {
+.boxT {
     width: 300px;
     margin: 20px;
     padding: 20px;
@@ -12,11 +12,11 @@
     border-radius: 5px;
 }
 
-.box h2 {
+.boxT h2 {
     margin-top: 0;
 }
 
-.box img {
+.boxT img {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;

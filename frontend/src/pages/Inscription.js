@@ -2,6 +2,7 @@
     import React, { useState } from 'react';
     import axios from 'axios';
     import Layout from "../components/Layout/Layout";
+    import "./Inscription.css";
 
     function Inscription() {
         const [formData, setFormData] = useState({
@@ -33,7 +34,7 @@
 
         return (
             <Layout>
-                <div>
+                <div className="box">
                 <h1>Inscription</h1>
                 <form onSubmit={handleSubmit}>
                     <label>

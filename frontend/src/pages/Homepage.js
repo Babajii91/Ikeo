@@ -23,7 +23,7 @@ const Homepage = () => {
                 {/* Afficher les données récupérées */}
                 {/* Par exemple, si les données sont un tableau d'objets, vous pouvez les mapper pour les afficher */}
                 {tables.map(table => (
-                    <div key={table._id} className="box">
+                    <div key={table._id} className="boxT">
                         <h2>{table.Nom}</h2>
                         <img src={table.Image} alt={table.Nom} />
                         <p>Prix: {table.Prix}</p>

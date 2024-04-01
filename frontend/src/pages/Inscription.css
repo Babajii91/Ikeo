@@ -1,0 +1,8 @@
+.box {
+    max-width: 400px;
+    margin: 50px auto; /* Ajoutez une marge de 50px en haut et en bas, et centre horizontalement */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}

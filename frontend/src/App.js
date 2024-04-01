@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Import de BrowserRouter pour envelopper l'application dans un Router
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; 
 import Homepage from './pages/Homepage';
 import Connexion from './pages/Connexion';
 import Inscription from './pages/Inscription';
@@ -9,7 +9,7 @@ import ProfilUtilisateur from './pages/ProfilUtilisateur';
 
 function App() {
   return (
-    <Router> {/* Envelopper l'application dans un Router */}
+    <Router> {}
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/Connexion" element={<Connexion />} />

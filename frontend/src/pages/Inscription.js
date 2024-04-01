@@ -1,4 +1,3 @@
-    // Inscription.js
     import React, { useState } from 'react';
     import axios from 'axios';
     import Layout from "../components/Layout/Layout";
@@ -10,7 +9,7 @@
             prenom: '',
             date_naissance: '',
             email: '',
-            password: '' // Nouveau champ pour le mot de passe
+            password: '' 
         });
 
         const handleChange = (e) => {
@@ -24,7 +23,7 @@
         const handleSubmit = async (e) => {
             e.preventDefault();
             try {
-                await axios.post('http://localhost:3000/users', formData); // Modifier l'URL pour correspondre à la route appropriée
+                await axios.post('http://localhost:3000/users', formData);
                 alert('Inscription réussie !');
             } catch (error) {
                 console.error('Erreur lors de l\'inscription:', error);

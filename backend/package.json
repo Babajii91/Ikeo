@@ -10,5 +10,10 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.2.4",
     "supertest": "^6.3.4"
+  },
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "chai-http": "^4.4.0",
+    "mocha": "^10.4.0"
   }
 }
